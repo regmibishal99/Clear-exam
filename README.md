@@ -1,102 +1,151 @@
-# 📚 Clear Exam
+# 📚 Clear Exam - Exam Preparation Platform
 
-<div align="center">
+A modern, feature-rich Flutter application designed to help students prepare for competitive exams with real-time updates, personalized dashboards, and comprehensive study resources.
 
-**A Modern Flutter-Based Educational Platform for Exam Preparation**
+## 🚀 Overview
 
-[![Flutter Version](https://img.shields.io/badge/Flutter-3.16+-blue.svg)](https://flutter.dev)
-[![Dart Version](https://img.shields.io/badge/Dart-3.2+-blue.svg)](https://dart.dev)
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-brightgreen.svg)](https://flutter.dev)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-</div>
-
----
-
-## 📖 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Screens](#screens)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## 🎯 Overview
-
-**Clear Exam** is a comprehensive educational platform designed to help students prepare for competitive exams. The application provides a seamless user experience with role-based dashboards (Admin and Student), real-time notifications, and organized course categories.
-
-### 🚀 Value Proposition
-
-Clear Exam bridges the gap between students and quality exam preparation by:
-- **Centralized Learning**: All exam materials in one place
-- **Real-time Updates**: Instant notifications for new courses and announcements
-- **Multi-category Support**: Engineering, Medical, Law, Teaching, Business, and Arts
-- **User-friendly Interface**: Intuitive design for both students and administrators
-
-### 💡 MVP (Minimum Viable Product) Significance
-
-This MVP focuses on core functionality that delivers immediate value:
-1. **User Authentication** - Secure login/signup system
-2. **Role-based Dashboards** - Separate interfaces for Admin and Students
-3. **Course Categories** - Organized content structure
-4. **Real-time Notifications** - Live updates for new content
-
-**Why MVP matters for startups:**
-- Validates product-market fit with minimal resources
-- Enables rapid user feedback collection
-- Reduces time-to-market significantly
-- Allows iterative improvements based on actual usage
-- Minimizes financial risk during initial launch
-
----
+Clear Exam is an innovative educational platform that bridges the gap between students and quality exam preparation resources. The application provides a seamless user experience with real-time notifications, course browsing capabilities, and personalized settings.
 
 ## ✨ Features
 
 ### 👨‍💼 Admin Dashboard
-- **Analytics Overview** - Total users, courses, colleges, notifications
-- **Quick Actions** - Add courses, send notifications
-- **Platform Management** - Full control over educational content
-  
-### 👨‍🎓 Student Dashboard
-- **Live Updates** - Real-time notifications for new courses
-- **Browse Categories** - Engineering, Medical, Law, Teaching, Business, Arts
-- **Search Functionality** - Find courses and content easily
-- **Favorites** - Save preferred courses
-- **Settings** - Account management, appearance, notification preferences
 
-### 🔐 Authentication
-- Secure login system
-- Password recovery option
-- Sign-up functionality
+**Analytics Dashboard**
+- Total Users: Track platform growth with real-time user statistics
+- Courses: Monitor course offerings and popularity
+- Colleges: Manage affiliated educational institutions
+- Notifications: Track engagement metrics
 
-### ⚙️ Settings & Preferences
-- Change password
-- Email management
-- Dark/Light mode toggle
-- Language selection
-- Push notification controls
-- Notification sound preferences
+**Quick Actions**
+- Add Course: Instantly create and publish new courses
+- Send Notification: Broadcast updates to all users
+- Platform Management: Complete control over educational content
 
----
+### 👨‍🎓 User Features
 
-## 📱 Screens
+#### 🔐 Authentication System
+- Secure login with email and password validation
+- Password recovery functionality for forgotten credentials
+- New user registration with email verification
+- Session management and auto-logout for security
 
-| Screen | Description |
-|--------|-------------|
-| **Login** | User authentication with email/password |
-| **Admin Dashboard** | Platform analytics and management controls |
-| **Student Dashboard** | Course browsing and real-time updates |
-| **Search** | Find courses and content |
-| **Favorites** | Saved courses collection |
-| **Settings** | Account and app preferences |
+#### 📱 User Dashboard
 
----
+**Real-time Updates**
+- Live notifications when administrators add new courses
+- Active connection status indicator
+- Instant alerts for platform announcements
+
+**Welcome Experience**
+- Personalized greeting for each user
+- Platform updates and announcements
+- Quick tips for platform navigation
+
+**Category Browsing**
+Browse and explore courses across multiple domains:
+- 🏗️ **Engineering** - JEE, GATE, and engineering entrance exams
+- 🏥 **Medical** - NEET, AIIMS, and medical entrance exams
+- ⚖️ **Law** - CLAT, LSAT, and law entrance exams
+- 📚 **Teaching** - CTET, TET, and teaching certification exams
+- 💼 **Business** - MBA, BBA, and management entrance exams
+- 🎨 **Arts** - Fine arts, humanities, and creative fields
+
+#### ⚙️ Settings & Personalization
+
+**Account Management**
+- **Change Password**: Secure password update functionality
+- **Email Settings**: Manage email preferences and notification frequency
+
+**Appearance Customization**
+- **Dark Mode**: Toggle between light and dark themes
+- **Language Selection**: Multi-language support (English default)
+
+**Notification Controls**
+- **Push Notifications**: Enable/disable real-time alerts
+- **Notification Sound**: Customize alert sounds (Default/Classic/Silent)
+
+#### 🧭 Navigation System
+
+Bottom navigation bar for intuitive access:
+- 📊 **Dashboard** - Home screen with overview and updates
+- 🔍 **Search** - Find courses, colleges, and study materials
+- ❤️ **Favorites** - Bookmark and access saved content
+- ⚙️ **Settings** - Manage account preferences
+
+## 📱 Screenshots
+
+### Admin Dashboard
+
+<img width="380" height="726" alt="Screenshot from 2026-04-05 21-48-45" src="https://github.com/user-attachments/assets/3896843d-fe45-4383-a801-6dae093ca187" />
+
+### User Login Screen
+
+
+<img width="386" height="732" alt="Screenshot from 2026-04-05 21-49-40" src="https://github.com/user-attachments/assets/01f8648a-b62c-49fd-a125-0d43ad1035af" />
+
+### User Dashboard
+
+<img width="380" height="724" alt="Screenshot from 2026-04-05 21-51-06" src="https://github.com/user-attachments/assets/484fab94-b502-4dff-be0a-ba812935d58c" />
+
+### Settings Panel
+
+
+<img width="380" height="724" alt="Screenshot from 2026-04-05 21-51-30" src="https://github.com/user-attachments/assets/d69dce6c-7b95-4098-8409-77b24912390c" />
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| **Framework** | Flutter (UI completed) |
+| **Language** | Dart |
+| **State Management** | To be implemented |
+| **Backend** | To be implemented (Firebase/Supabase planned) |
+| **Database** | To be implemented |
+| **Authentication** | To be implemented |
+| **Push Notifications** | To be implemented |
+
+## 🚦 Project Status
+
+### ✅ Phase 1: UI Implementation (COMPLETED)
+- [x] Admin dashboard design
+- [x] User login/signup screens
+- [x] User dashboard with categories
+- [x] Settings screen with preferences
+- [x] Bottom navigation implementation
+- [x] Responsive layouts for different screen sizes
+
+### ⏳ Phase 2: Backend Integration (IN PROGRESS)
+- [ ] API integration setup
+- [ ] Database schema design
+- [ ] Authentication service implementation
+- [ ] Course data management
+- [ ] User profile management
+
+### 📋 Phase 3: Feature Enhancement (PLANNED)
+- [ ] Real-time push notifications
+- [ ] Course enrollment system
+- [ ] Progress tracking dashboard
+- [ ] Quiz and test functionality
+- [ ] Video lecture integration
+- [ ] Discussion forums
+
+### 🎯 Phase 4: Advanced Features (FUTURE)
+- [ ] AI-powered study recommendations
+- [ ] Peer-to-peer study groups
+- [ ] Mock test series with analytics
+- [ ] Performance comparison with peers
+- [ ] Certificate generation upon completion
+- [ ] Payment gateway integration for premium content
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+Before running this project, ensure you have:
+
+```bash
+Flutter SDK (latest version)
+Dart SDK (latest version)
+Android Studio / VS Code with Flutter extensions
+iOS Simulator (Mac only) or Android Emulator
+Git (for version control)
