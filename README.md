@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # clear_exam
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Clear-exam
+This is the complete Flutter Project on the basis of study . Where the user may be a admin and user. The admin must be able the add subject ,course and so on. The user get notify at real time .
+>>>>>>> d707bb33de189eca853391276f165d062edbd5c5
