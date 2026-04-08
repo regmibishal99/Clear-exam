@@ -4,10 +4,9 @@ A modern, feature-rich Flutter application designed to help students prepare for
 
 ## 🚀 Overview
 
-Clear Exam is an innovative educational platform that bridges the gap between students and quality exam preparation resources. The application provides a seamless user experience with real-time notifications, course browsing capabilities, and personalized settings.
+Clear Exam is an innovative educational platform that bridges the gap between students and quality exam preparation resources. The application provides a seamless user experience with real-time notifications, course browsing capabilities, and personalized settings. Most of the feature are only use hardcode.Without using the backend integration.
 
 ## ✨ Features
-
 ### 👨‍💼 Admin Dashboard
 
 **Analytics Dashboard**
@@ -73,6 +72,8 @@ Bottom navigation bar for intuitive access:
 - ⚙️ **Settings** - Manage account preferences
 
 ## 📱 Screenshots
+### Choose Role
+<img width="389" height="707" alt="Screenshot from 2026-04-08 20-36-10" src="https://github.com/user-attachments/assets/30caa076-1752-48ef-a1ab-cdf6796fb91d" />
 
 ### Admin Dashboard
 
@@ -136,16 +137,3 @@ Bottom navigation bar for intuitive access:
 - [ ] Performance comparison with peers
 - [ ] Certificate generation upon completion
 - [ ] Payment gateway integration for premium content
-
-## 🏁 Getting Started
-
-### Prerequisites
-
-Before running this project, ensure you have:
-
-```bash
-Flutter SDK (latest version)
-Dart SDK (latest version)
-Android Studio / VS Code with Flutter extensions
-iOS Simulator (Mac only) or Android Emulator
-Git (for version control)
